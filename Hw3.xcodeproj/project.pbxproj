@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0156730A233CA05400593340 /* UnitsAndModes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01567309233CA05400593340 /* UnitsAndModes.swift */; };
+		0156730C233CB9AB00593340 /* selsectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0156730B233CB9AB00593340 /* selsectionViewController.swift */; };
 		019387CA233AA67E00B9F92F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019387C9233AA67E00B9F92F /* AppDelegate.swift */; };
 		019387CC233AA67E00B9F92F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019387CB233AA67E00B9F92F /* ViewController.swift */; };
 		019387CF233AA67E00B9F92F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 019387CD233AA67E00B9F92F /* Main.storyboard */; };
@@ -15,7 +17,6 @@
 		019387DF233AA67F00B9F92F /* Hw3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019387DE233AA67F00B9F92F /* Hw3Tests.swift */; };
 		019387EA233AA67F00B9F92F /* Hw3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019387E9233AA67F00B9F92F /* Hw3UITests.swift */; };
 		019387F8233B04B000B9F92F /* DecimalMinusTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019387F7233B04B000B9F92F /* DecimalMinusTextField.swift */; };
-		01A045EE233C750E00462ED3 /* ModeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A045ED233C750E00462ED3 /* ModeViewController.swift */; };
 		01A045F0233C75A600462ED3 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A045EF233C75A600462ED3 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01567309233CA05400593340 /* UnitsAndModes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UnitsAndModes.swift; path = ../../../Downloads/UnitsAndModes.swift; sourceTree = "<group>"; };
+		0156730B233CB9AB00593340 /* selsectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selsectionViewController.swift; sourceTree = "<group>"; };
 		019387C6233AA67E00B9F92F /* Hw3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hw3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		019387C9233AA67E00B9F92F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		019387CB233AA67E00B9F92F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,7 +54,6 @@
 		019387E9233AA67F00B9F92F /* Hw3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hw3UITests.swift; sourceTree = "<group>"; };
 		019387EB233AA67F00B9F92F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		019387F7233B04B000B9F92F /* DecimalMinusTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DecimalMinusTextField.swift; path = "../../../Downloads/DecimalMinusTextField-master/DecimalMinusTextField.swift"; sourceTree = "<group>"; };
-		01A045ED233C750E00462ED3 /* ModeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeViewController.swift; sourceTree = "<group>"; };
 		01A045EF233C75A600462ED3 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -106,8 +108,9 @@
 				019387C9233AA67E00B9F92F /* AppDelegate.swift */,
 				019387CB233AA67E00B9F92F /* ViewController.swift */,
 				019387F7233B04B000B9F92F /* DecimalMinusTextField.swift */,
+				01567309233CA05400593340 /* UnitsAndModes.swift */,
 				019387CD233AA67E00B9F92F /* Main.storyboard */,
-				01A045ED233C750E00462ED3 /* ModeViewController.swift */,
+				0156730B233CB9AB00593340 /* selsectionViewController.swift */,
 				01A045EF233C75A600462ED3 /* SettingsViewController.swift */,
 				019387D0233AA67F00B9F92F /* Assets.xcassets */,
 				019387D2233AA67F00B9F92F /* LaunchScreen.storyboard */,
@@ -267,9 +270,10 @@
 			files = (
 				019387F8233B04B000B9F92F /* DecimalMinusTextField.swift in Sources */,
 				019387CC233AA67E00B9F92F /* ViewController.swift in Sources */,
+				0156730A233CA05400593340 /* UnitsAndModes.swift in Sources */,
 				019387CA233AA67E00B9F92F /* AppDelegate.swift in Sources */,
 				01A045F0233C75A600462ED3 /* SettingsViewController.swift in Sources */,
-				01A045EE233C750E00462ED3 /* ModeViewController.swift in Sources */,
+				0156730C233CB9AB00593340 /* selsectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

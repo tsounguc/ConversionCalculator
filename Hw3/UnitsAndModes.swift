@@ -6,7 +6,7 @@
 //  Copyright © 2018 Jonathan Engelsma. All rights reserved.
 //
 
-import UIKit
+import Foundation
 
 enum CalculatorMode : String {
     case Length
@@ -64,7 +64,7 @@ let volumeConversionTable : Dictionary<VolumeConversionKey, Double> = [
     VolumeConversionKey(toUnits: .Quarts, fromUnits: .Quarts) : 1.0
 ]
 
-// To support Swift 4.2's iteration over enum... see
+// To support Swift 4.2's iteration over enum... see 
 // source: https://stackoverflow.com/questions/24007461/how-to-enumerate-an-enum-with-string-type
 #if !swift(>=4.2)
 public protocol CaseIterable {
